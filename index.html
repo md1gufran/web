@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>Database</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="index.png" class="logo">
+        </div>
+        <body>
+        
+            <div class="header">
+  
+                <form name="search" action="search_submit.php" method="post">
+                    <h1>Please enter your Query</h1>
+                     <div class="form-box">
+                     <input type="text" class="search-field Query" placeholder="Query" name="txt" value=""/>
+                     
+                     <br> <br>
+                     <input type=radio name=search value="gene" id=check1>
+     &nbsp;<font color="White">Entrez Gene ID (eg."347")</font> &emsp;&emsp;&emsp;
+     <input type=radio name=search value='symbol' id=check2>
+     &nbsp;<font color="White">HGNC symbol (eg."APOD")</font>&emsp;&emsp;&emsp;
+     <input type=radio name=search value='expression' id=check3>
+     &nbsp;<font color="White">Expression (eg."Overexpressed")</font>
+     <input type=radio name=search value="gene" id=check4>
+     &nbsp;<font color="White">Entrez Gene ID (eg."347")</font>&emsp;&emsp;&emsp;
+     <input type=radio name=search value="gene" id=check5>
+     &nbsp;<font color="White">Entrez Gene ID (eg."347")</font>&emsp;&emsp;&emsp;
+     <br> <br>       
+     <button class="search-btn" type="button">Search</button>  
+         
+     
+                    </div>
+            
+            </div>
+        </body>
+        <div class="content">
+            <h1>IIT-HYDERABAD</h1>
+            <p>Big Data Biology(Database) - by Md Gufran Ashraf</p>
+           
+    
+        </div>
+    </div>
+    
+    
+            
+        </form>
+        
+    </div>
+</body>
+
+</html>
